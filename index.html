@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Perhapsbot.dev</title>
+    <title>Perhapsbot Project</title>
 
     <!-- Load universal assets -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
@@ -10,57 +10,123 @@
     <link rel="manifest" href="/assets/site.webmanifest">
     <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#212529">
     <link rel="shortcut icon" href="/assets/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Perhapsbot.dev">
-    <meta name="application-name" content="Perhapsbot.dev">
+    <meta name="apple-mobile-web-app-title" content="Perhapsbot Project">
+    <meta name="application-name" content="Perhapsbot Project">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="/assets/browserconfig.xml">
     <meta name="theme-color" content="#212529">
 
-		<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/bounce.css" />
 
+    
     <!-- disable browser cache -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZS41FL6DZX"></script>
+    <!-- Onclick="" Script -->
    <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+    function clicked() {
+      const doc = document.getElementById("clickme");
 
-     gtag('config', 'G-ZS41FL6DZX');
-   </script>
+      if(doc.innerHTML == "[:") {
+        doc.innerHTML = "]:";
+      }
 
-   <!-- Onclick="" Script -->
-   <script>
-     function clicked() {
-       const doc = document.getElementById("clickme");
+      else {
+        doc.innerHTML = "[:";
+      }
+    }
+  </script>
 
-       if(doc.innerHTML == "[:") {
-         doc.innerHTML = "]:";
-       }
-
-       else {
-         doc.innerHTML = "[:";
-       }
-     }
-   </script>
-
+   <!-- Bounce Script-->
+   <script src="/assets/scripts/jquery.min.js"></script>
+   <script>(function ($, window, undefined) {
+    $.fn.marqueeify = function (options) {
+      var settings = $.extend({
+        horizontal: true,
+        vertical: true,
+        speed: 100, // In pixels per second
+        container: $(this).parent(),
+        bumpEdge: function () {}
+      }, options);
+      
+      return this.each(function () {
+        var containerWidth, containerHeight, elWidth, elHeight, move, getSizes,
+          $el = $(this);
+  
+        getSizes = function () {
+          containerWidth = settings.container.outerWidth();
+          containerHeight = settings.container.outerHeight();
+          elWidth = $el.outerWidth();
+          elHeight = $el.outerHeight();
+        };
+  
+        move = {
+          right: function () {
+            $el.animate({left: (containerWidth - elWidth)}, {duration: ((containerWidth/settings.speed) * 1000), queue: false, easing: "linear", complete: function () {
+              settings.bumpEdge();
+              move.left();
+            }});
+          },
+          left: function () {
+            $el.animate({left: 0}, {duration: ((containerWidth/settings.speed) * 1000), queue: false, easing: "linear", complete: function () {
+              settings.bumpEdge();
+              move.right();
+            }});
+          },
+          down: function () {
+            $el.animate({top: (containerHeight - elHeight)}, {duration: ((containerHeight/settings.speed) * 1000), queue: false, easing: "linear", complete: function () {
+              settings.bumpEdge();
+              move.up();
+            }});
+          },
+          up: function () {
+            $el.animate({top: 0}, {duration: ((containerHeight/settings.speed) * 1000), queue: false, easing: "linear", complete: function () {
+              settings.bumpEdge();
+              move.down();
+            }});
+          }
+        };
+  
+        getSizes();
+  
+        if (settings.horizontal) {
+          move.right();
+        }
+        if (settings.vertical) {
+          move.down();
+        }
+  
+        // Make that stuff responsive!
+        $(window).resize( function() {
+          getSizes();
+        });
+      });
+    };
+  })(jQuery, window);
+  
+  $(document).ready( function() {
+  
+    $('.marquee').marqueeify({
+      speed: 150,
+      bumpEdge: function () {
+        var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
+        $('.marquee .logo').css('fill', newColor);
+      }
+    });
+  });</script> 
   </head>
   <body>
 
-    <!-- The logo icon -->
-    <h1 class="icon" id="clickme" Onclick="clicked()">[:</h1>
+  <!-- The logo icon -->
+  <h1 class="icon" id="clickme" Onclick="clicked()">[:</h1>
 
-    <!-- Primary navigation bar -->
-    <h5 class="nav">
-      <a href="/Minecraft">Minecraft</a>
-      <a href="/Initiation">Initiation</a>
-      <a href="/Downloads">Downloads</a>
-      <a href="https://discord.com/api/oauth2/authorize?client_id=761075159280779296&permissions=103992384&scope=bot">Click_to_achive_greatness</a>
-    </h5>
+      <!-- Floaty thingy bar -->
+  <div class="marquee">
+    <h5 class="nav">John 2:4</h5>
+  </div>
+
   </body>
 
 </html>
