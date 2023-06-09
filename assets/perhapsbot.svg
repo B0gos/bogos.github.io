@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="180" height="180" version="1.1" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2459">
+  <path transform="matrix(0,-1.3357,-1.3359,0,178.5,87.348)" d="M 54.933,31.716 0,63.43 0.001196,-0.001 Z" style="paint-order:stroke markers fill"/>
+  <path transform="matrix(0,1.3357,-1.3359,0,132.37,10.207)" d="M 54.933,31.716 0,63.43 0.001196,-0.001 Z" style="paint-order:stroke markers fill"/>
+  <path transform="matrix(0,1.3357,-1.3359,0,86.234,92.663)" d="M 54.933,31.716 0,63.43 0.001196,-0.001 Z" style="paint-order:stroke markers fill"/>
+  <path transform="matrix(0,1.3357,-1.3359,0,178.5,92.663)" d="M 54.933,31.716 0,63.43 0.001196,-0.001 Z" style="paint-order:stroke markers fill"/>
+  <path transform="matrix(0,-1.3357,-1.3359,0,132.37,169.8)" d="M 54.933,31.716 0,63.43 0.001196,-0.001 Z" style="paint-order:stroke markers fill"/>
+ </g>
+ <style>
+  @media (prefers-color-scheme: light) {
+    path { stroke: black; }
+  }
+</style>
+</svg>
