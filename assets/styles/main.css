@@ -23,6 +23,13 @@
       src: url('/assets/fonts/fa-regular-400.woff2') format('woff2');
       font-weight: 600pt;
       font-style: normal;
+}
+
+@font-face {
+      font-family: 'awesomefont-solid';
+      src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
+      font-weight: 600pt;
+      font-style: normal;
 
 }
 body {
