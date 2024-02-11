@@ -49,6 +49,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #687079;
+  transition: 0.3s;
+}
+
 .icon {
   font-family: liberation_monoregular, monospace;
   color: #eceff4;
