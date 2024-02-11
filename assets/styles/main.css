@@ -45,7 +45,7 @@ body {
 
 /* Text and Buttons */
 a { 
-  color: #d8dee9;
+  color: #9fa5af;
   text-decoration: none;
 }
 
@@ -70,6 +70,7 @@ a:hover {
 }
 
 .nav a{
+    color: #d8dee9;
     padding: 10px;
 }
 
