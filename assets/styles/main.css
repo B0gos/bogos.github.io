@@ -18,27 +18,13 @@
     font-style: normal;
 }
 
-@font-face {
-      font-family: 'awesomefont';
-      src: url('/assets/fonts/fa-regular-400.woff2') format('woff2');
-      font-weight: 600pt;
-      font-style: normal;
-}
-
-@font-face {
-      font-family: 'awesomefont-solid';
-      src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
-      font-weight: 600pt;
-      font-style: normal;
-
-}
 body {
   position: fixed;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* Secondary font: Helvetica, sans-serif */
-  font-family: quicksandlight, monospace, awesomefont;
+  font-family: quicksandlight, monospace;
   letter-spacing: 0.057em;
   text-align: center;
   background-color: #212529;
@@ -51,7 +37,7 @@ a {
 }
 
 .icon {
-  font-family: liberation_monoregular, monospace, awesomefont;
+  font-family: liberation_monoregular, monospace;
   color: #eceff4;
   font-size: 150px;
 }
