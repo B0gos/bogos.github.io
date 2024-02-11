@@ -27,6 +27,8 @@ body {
   color: #d8dee9;
 }
 
+
+/* Positions */
 .center {
   position: fixed;
   top: 40%;
@@ -34,6 +36,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.leftcorner {
+  position: fixed;
+  top: 3%;
+  left: 2%;
+}
+
+
+/* Text and Buttons */
 a { 
   color: #d8dee9;
   text-decoration: none;
@@ -60,10 +70,4 @@ a {
 .nav a:hover {
   background-color: #3e8e41;
   color: white;
-}
-
-.rightcorner {
-  position: fixed;
-  top: 5%;
-  left: 10%;
 }
