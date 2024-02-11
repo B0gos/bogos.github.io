@@ -45,12 +45,12 @@ body {
 
 /* Text and Buttons */
 a { 
-  color: #9fa5af;
+  color: #687079;
   text-decoration: none;
 }
 
 a:hover {
-  color: #687079;
+  color: #9fa5af;
   transition: 0.3s;
 }
 
