@@ -53,3 +53,8 @@ a {
 .nav a{
     padding: 10px;
 }
+
+.nav a:hover {
+  background-color: #3e8e41;
+  color: white;
+}
