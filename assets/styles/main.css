@@ -58,6 +58,7 @@ a {
 .nav {
     border: 1px solid #ccc;
     border-width: 1px 1px;
+    border-radius: 15px;
     margin: 5;
     padding: 10;
     color: #eceff4;
@@ -68,6 +69,6 @@ a {
 }
 
 .nav a:hover {
-  background-color: #3e8e41;
-  color: white;
+  background-color: #eceff4;
+  color: #212529;
 }
