@@ -32,11 +32,10 @@ html,body {
     border: 1px solid #ccc;
     border-width: 1px 1px;
     margin: 5;
-    padding: 10;
+    padding: 20;
 }
 
 .nav a{
-    padding: 10px;
     color: #d8dee9;
     text-decoration: none;
 }
