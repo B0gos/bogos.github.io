@@ -19,16 +19,19 @@
 }
 
 body {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   /* Secondary font: Helvetica, sans-serif */
   font-family: quicksandlight, monospace;
   letter-spacing: 0.057em;
   text-align: center;
   background-color: #212529;
   color: #d8dee9;
+}
+
+.center {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 a { 
