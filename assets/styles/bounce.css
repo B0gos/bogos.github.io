@@ -41,6 +41,12 @@ html,body {
     text-decoration: none;
 }
 
+.nav a:hover {
+    background-color: #eceff4;
+    color: #212529;
+    transition: 0.3s;
+  }
+
 .marquee {
     display: block;
     left: 0;
