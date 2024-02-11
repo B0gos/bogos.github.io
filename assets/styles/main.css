@@ -71,5 +71,5 @@ a {
 .nav a:hover {
   background-color: #eceff4;
   color: #212529;
-  transition: 0.3s;
+  transition: 0.1s;
 }
