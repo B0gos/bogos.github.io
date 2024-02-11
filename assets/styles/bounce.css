@@ -33,11 +33,12 @@ html,body {
     border-width: 1px 1px;
     margin: 5;
     padding: 10;
-    color: #eceff4;
 }
 
 .nav a{
     padding: 10px;
+    color: #d8dee9;
+    text-decoration: none;
 }
 
 .marquee {
