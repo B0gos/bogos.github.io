@@ -26,31 +26,41 @@
 
    <!-- Onclick="" Script -->
    <script>
-     function clicked() {
-       const doc = document.getElementById("clickme");
+    function generateRandomHex(length) {
+      const characters = '0123456789abcdef';
+      let hex = '';
+      for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        hex += characters[randomIndex];
+      }
+      return hex;
+    }
 
-       if(doc.innerHTML == "[:") {
-         doc.innerHTML = "]:";
-       }
+    function clicked() {
+      const doc = document.getElementById("clickme");
 
-       else {
-         doc.innerHTML = "[:";
-       }
+      if(doc.innerHTML != " ... ") {
+        doc.innerHTML = " ... ";
+      }
+
+      else {
+        doc.innerHTML = generateRandomHex(5);
+      }
      }
    </script>
   </head>
 
   <body>
+    <!-- The logo icon -->
+    <h1 class="icon" id="clickme" Onclick="clicked()">...</h1>
     <div class="center">
-      <!-- The logo icon -->
-     <h1 class="icon" id="clickme" Onclick="clicked()">[:</h1>
 
      <!-- Primary navigation bar -->
       <h5 class="nav">
         <a href="/mc">Minecraft</a>
         <a href="/pong">Pong</a>
         <a href="/dl">Downloads</a>
-        <a href="https://discord.com/api/oauth2/authorize?client_id=761075159280779296&permissions=103992384&scope=bot">DiscordBot</a>
+        <a href="https://github.com/B0gos">Github</a>
       </h5>
     </body>
   </div>

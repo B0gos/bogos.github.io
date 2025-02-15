@@ -42,9 +42,12 @@ html,body {
 
 .nav:hover {
     background-color: #eceff4;
-    color: #212529;
     transition: 0.3s;
   }
+.nav:hover .visible{
+    content: " Exit! ";
+    color:  #212529
+}
 
 .marquee {
     display: block;

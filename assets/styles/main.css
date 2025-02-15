@@ -25,17 +25,16 @@ body {
   text-align: center;
   background-color: #212529;
   color: #d8dee9;
-}
+  
 
-
-/* Positions */
-.center {
   position: fixed;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+
+/* Positions */
 .leftcorner {
   position: fixed;
   top: 3%;
@@ -61,11 +60,15 @@ a:hover {
 }
 
 .nav {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
     border: 1px solid #ccc;
     border-width: 1px 1px;
-    border-radius: 15px;
-    margin: 5;
-    padding: 10;
+    border-radius: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
     color: #eceff4;
 }
 
