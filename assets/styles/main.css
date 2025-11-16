@@ -31,6 +31,10 @@ body {
   margin: auto;
 }
 
+* {
+  border-color: #d8dee9;
+}
+
 
 /* Positions */
 .leftcorner {
