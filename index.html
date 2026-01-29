@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>The perhapsbot.dev</title>
+    <title>The PerhapsBot.dev</title>
 
     <!-- Load universal assets -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
@@ -23,50 +23,26 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-
-   <!-- Onclick="" Script -->
-   <script>
-    function generateRandomHex(length) {
-      const characters = '0123456789abcdef';
-      let hex = '';
-      for (let i = 0; i < length; i++) {
-        const randomIndex = Math.floor(Math.random() * characters.length);
-        hex += characters[randomIndex];
-      }
-      return hex;
-    }
-
-    function clicked() {
-      const doc = document.getElementById("clickme");
-
-      if(doc.innerHTML != " ... ") {
-        doc.innerHTML = " ... ";
-      }
-
-      else {
-        doc.innerHTML = generateRandomHex(5);
-      }
-     }
-   </script>
+    <!-- scripts -->
+    <script type="module" src="JSQuarks/quarks.js"/>
   </head>
 
   <body>
-    <!-- The logo icon -->
-    <h1 class="icon" id="clickme" Onclick="clicked()">...</h1>
+    <!-- The canvas -->
+    <canvas id="canvas" width="512" height="512"></canvas>
     <div class="center">
 
-     <!-- Primary navigation bar -->
-      <h5 class="nav">
-        <a href="mc">Minecraft</a>
-        <a href="dl">Downloads</a>
-        <a href="https://github.com/B0gos">Github</a>
-      </h5>
-      <!-- Secondary navigation bar -->
-      <h5 class="nav">
-        <a href="pong">Pong</a>
-        <a href="JSQuarks">JSQuarks</a>
-        <a href="Caltopo-GPX-fix_elev">Caltop GPX tool</a>
-      </h5>
-    </body>
-  </div>
+    <!-- Primary navigation bar -->
+    <ul class="nav">
+      <li><a href="dl">Downloads</a></li>
+      <li><a href="https://github.com/B0gos">Github</a></li>
+    </ul>
+
+    <!-- Secondary navigation bar -->
+    <ul class="nav">
+      <li><a href="prj/pong">Pong</a><li></li>
+      <li><a href="prj/JSQuarks">JSQuarks</a><li></li>
+      <li><a href="prj/Caltopo-GPX-fix_elev">Caltopo GPX tool</a></li>
+    </ul>
+  </body>
 </html>
