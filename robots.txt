@@ -1,8 +1,6 @@
 # robots.txt - allow all webcrawlers except Googlebot-Image
 Sitemap: https://perhapsbot.dev/sitemap.xml
 
-User-agent: Googlebot-Image
-Disallow: /assets/
-
 User-agent: *
-Allow: /
+Disallow: /
+
