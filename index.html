@@ -11,8 +11,8 @@
     <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#212529">
     <link rel="shortcut icon" href="assets/favicons/favicon.ico">
     <link rel="manifest" href="assets/site.webmanifest">
-    <meta name="apple-mobile-web-app-title" content="Perhapsbot.dev">
-    <meta name="application-name" content="Perhapsbot.dev">
+    <meta name="apple-mobile-web-app-title" content="PerhapsBot.dev">
+    <meta name="application-name" content="PerhapsBot.dev">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="assets/browserconfig.xml">
     <meta name="theme-color" content="#212529">
@@ -25,25 +25,33 @@
     <meta http-equiv="Expires" content="0" />
 
     <!-- scripts -->
-    <script type="module" src="JSQuarks/quarks.js"></script>
+    <script type="module" src="assets/scripts/quarks.js"></script>
   </head>
 
   <body>
-    <!-- The canvas -->
-    <canvas id="canvas" width="512" height="512"></canvas>
-    <div class="center">
+      <div class="left">
+      
+      <!-- The canvas -->
+      <canvas class="right" id="canvas" width="512" height="512"></canvas>
 
-    <!-- Primary navigation bar -->
-    <ul class="nav">
-      <li><a href="dl">Downloads</a></li>
-      <li><a href="https://github.com/B0gos">Github</a></li>
-    </ul>
+      <h1 class="header">The PerhapsBot [dot] dev</h1>
+      <p>Welcome to the bogosverse</p>
+      <p>A partial directory of the things I've made</p>
 
-    <!-- Secondary navigation bar -->
-    <ul class="nav">
-      <li><a href="prj/pong">Pong</a><li></li>
-      <li><a href="prj/JSQuarks">JSQuarks</a><li></li>
-      <li><a href="prj/Caltopo-GPX-fix_elev">Caltopo GPX tool</a></li>
-    </ul>
+      <div class="lower">
+        <!-- Primary navigation bar -->
+        <ul class="nav">
+          <li><a href="dl">Downloads</a></li>
+          <li><a href="https://github.com/B0gos">Github</a></li>
+        </ul>
+
+        <!-- Secondary navigation bar -->
+        <ul class="nav">
+          <li><a href="pr/pong" >Pong</a></li>
+          <li><a href="pr/JSQuarks" >JSQuarks</a></li>
+          <li><a href="pr/Caltopo-GPX-fix_elev" >Caltopo GPX tool</a></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
