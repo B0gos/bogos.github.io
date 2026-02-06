@@ -1,11 +1,31 @@
 /* Site-wide css file for perhapsbot.dev */
 
+@font-face {
+  font-family: 'liberation_monoregular';
+  src: url('/assets/fonts/liberationmono-regular-webfont.woff2') format('woff2'),
+    url('liberationmono-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'quicksandlight';
+  src: url('assets/fonts/quicksand-variablefont_wght-webfont.woff2') format('woff2'),
+    url('assets/fonts/quicksand-variablefont_wght-webfont.woff') format('woff');
+  font-weight: 600pt;
+  font-style: normal;
+}
+
 body {
   padding: 10%;
+  margin: auto;
 
   /* Secondary font: Helvetica, sans-serif */
-  font-family: monospace;
+  font-family: quicksandlight, monospace;
   letter-spacing: 0.057em;
+
+  text-align: center;
 
   background-color: #212529;
   color: #d8dee9;
@@ -14,24 +34,11 @@ body {
 
 
 /* Positions */
-.left {
-  margin-top: 10%;
+.leftcorner {
+  position: fixed;
+  top: 3%;
+  left: 2%;
 }
-
-.right {
-  margin-top: -2%;
-
-  float: right;
-
-  animation: fadeIn 4s;
-}
-
-.lower {
-  margin-top: 10%;
-
-  animation: fadeIn 2s;
-}
-
 
 
 /* Text and Buttons */
@@ -46,38 +53,32 @@ a:hover {
   transition: 0.3s;
 }
 
-p {
-  animation: fadeIn 1s;
-}
-
 
 
 /* Special Classes */
-.header {
-  font-size: 2em;
+
+.logo {
+  font-family: liberation_monoregular, monospace;
+  font-size: 150px;
 
   color: #eceff4;
-
-  animation: fadeIn 0.5s;
 }
 
 .nav {
   width: fit-content;
 
-  padding: 0;
+  margin: 5 auto;
 
   display: flex;
   justify-content: space-around;
 
   border: 1px solid #ccc;
   border-width: 1px 1px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .nav li {
   padding: 10px;
-
-  text-align: center;
 
   color: #d8dee9;
   list-style: none;
@@ -104,12 +105,6 @@ p {
     font-size: 30px;
   }
 
-  .right {
-    padding-bottom: 10%;
-
-    float: none;
-  }
-
   .nav {
     margin: 20;
     padding: 30;
@@ -120,16 +115,10 @@ p {
   }
 
   .nav li {
-    padding: 20px;
+    padding: 30px;
   }
 
   .icon {
     font-size: 50pt;
   }
 }
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
