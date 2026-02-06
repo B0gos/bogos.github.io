@@ -4,3 +4,6 @@
 [submodule "JSQuarks"]
 	path = JSQuarks
 	url = https://github.com/B0gos/JSQuarks.git
+[submodule "pr/JSQuarks"]
+	path = pr/JSQuarks
+	url = git@github.com:B0gos/JSQuarks.git
