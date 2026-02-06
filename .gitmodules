@@ -1,6 +1,6 @@
-[submodule "Caltopo-GPX-fix_elev"]
+[submodule "pr/Caltopo-GPX-fix_elev"]
 	path = pr/Caltopo-GPX-fix_elev
 	url = git@github.com:B0gos/Caltopo-GPX-fix_elev.git
-[submodule "JSQuarks"]
+[submodule "pr/JSQuarks"]
 	path = pr/JSQuarks
 	url = git@github.com:B0gos/JSQuarks.git
