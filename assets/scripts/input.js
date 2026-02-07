@@ -4,6 +4,6 @@ export default function getInputs() {
    let count = 32;
    let tolerance = 96;
    let speed = 2;
-   let color = "white";
+   let color = "#BDBDBD";
    return {count:count, tolerance:tolerance, speed:speed, color:color}
 }
