@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128mm"
+   height="128mm"
+   version="1.1"
+   viewBox="0 0 128 128"
+   id="svg2"
+   sodipodi:docname="perhapsbot.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   inkscape:export-filename="perhapsbot.png"
+   inkscape:export-xdpi="12.7"
+   inkscape:export-ydpi="12.7"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="85.525101"
+       y="96.928444"
+       width="359.20541"
+       height="171.0502"
+       id="rect6" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#00000000"
+     showguides="false"
+     inkscape:zoom="0.52616133"
+     inkscape:cx="45.613386"
+     inkscape:cy="180.55299"
+     inkscape:window-width="1090"
+     inkscape:window-height="698"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2">
+    <sodipodi:guide
+       position="0,99.999998"
+       orientation="0,483.77953"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="128,99.999998"
+       orientation="483.77953,0"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="128,-28"
+       orientation="0,-483.77953"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,-28"
+       orientation="-483.77953,0"
+       id="guide5"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <rect
+     style="fill:#212529;fill-opacity:1;stroke:#212529;stroke-width:0.264037;stroke-opacity:1"
+     id="rect2"
+     width="127.736"
+     height="127.73596"
+     x="0.13201861"
+     y="0.13201861"
+     rx="32"
+     ry="32" />
+  <g
+     id="g8"
+     transform="translate(0.7395059,0.62598172)">
+    <g
+       id="g7"
+       transform="matrix(1.034836,0,0,1.034836,-0.54817629,-12.166135)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.2519px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.472189;stroke-opacity:1"
+         x="42.06699"
+         y="75.25145"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.2519px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.472189"
+           x="42.06699"
+           y="75.25145">?</tspan></text>
+      <rect
+         style="fill:#212529;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="rect7"
+         width="11.063"
+         height="12.571397"
+         x="55.817005"
+         y="65.874115" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.42651756,0,0,0.42651756,1.4493746,9.053079)"
+       id="text6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:136.071px;font-family:FreeMono;-inkscape-font-specification:'FreeMono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#eeeeee;fill-opacity:1;stroke:#212529;stroke-opacity:1"><tspan
+         x="85.525391"
+         y="222.79341"
+         id="tspan2"></tspan></text>
+  </g>
+</svg>
